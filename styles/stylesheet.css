@@ -1,47 +1,38 @@
-footer img{
-  height: 150px;
+.grid-container{
+display: grid;
+width: 100%;
+height: 800px;
+position: relative;
+grid-template-rows: 25% 25% 25% 25%;
+grid-template-columns: 25% 25% 25% 25%;
+grid-gap: 10px 10px;
+}
+
+img{
+  padding-top: 20px;
+  height: auto;
+  width: auto;
+}
+
+h3{
+  padding-left: 45px;
+}
+
+.description{
+  width: 600px;
+}
+
+#derek{
+  grid-area: 1/2/2/5;
+}
+
+#footer-image {
+  height: 180px;
   width: 100%;
+  bottom: 0;
 }
 
-footer ul{
-  text-decoration: none;
-  list-style-type: none;
-  display: flex;
-  justify-content: space-around;
-  clear: both;
-}
-
-nav{
-  width: 70%;
-}
-nav ul{
-  text-decoration: none;
-  list-style-type: none;
-  height: 15%;
-  width: 70%;
-}
-
-ul.nav-bar{
-  height: 25px;
-  background-color: rgb(3, 163, 223);
-  width: 100%;
-}
-
-ul li{
-  padding-right: 20px;
-}
-
-nav li{
-  float: left;
-  text-decoration: none;
-}
-
-h2{
-  clear: both;
-}
-
-#logo{
-  float: right;
-  width: 10%;
-  clear: both;
+footer{
+  position: inherit;
+  padding-top: 25%;
 }
