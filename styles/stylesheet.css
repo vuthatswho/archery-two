@@ -1,0 +1,47 @@
+footer img{
+  height: 150px;
+  width: 100%;
+}
+
+footer ul{
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  clear: both;
+}
+
+nav{
+  width: 70%;
+}
+nav ul{
+  text-decoration: none;
+  list-style-type: none;
+  height: 15%;
+  width: 70%;
+}
+
+ul.nav-bar{
+  height: 25px;
+  background-color: rgb(3, 163, 223);
+  width: 100%;
+}
+
+ul li{
+  padding-right: 20px;
+}
+
+nav li{
+  float: left;
+  text-decoration: none;
+}
+
+h2{
+  clear: both;
+}
+
+#logo{
+  float: right;
+  width: 10%;
+  clear: both;
+}
