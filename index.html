@@ -10,9 +10,10 @@
     <header>
       <h1>Straight to the Point Archery</h1>
     </header>
+    <img src="images.img/archeryAcademy-logo-color.png" alt="Academy Logo">
     <nav>
-      <ul class="nav-bar">
-        <li><a href="archery.html"> Home </a></li>
+      <ul class="site-nav">
+        <li><a href="index.html"> Home </a></li>
         <li><a href="index.html"> Link </a></li>
         <li><a href="index.html"> Link </a></li>
         <li><a href="about-us.html"> About Us </a></li>
@@ -27,7 +28,6 @@
       </audio>
     </div>
     <article>
-      <img id="logo" src="images.img/archeryAcademy-logo-color.png" alt="Academy Logo">
       <div>
         <h2> Services </h2>
           <h3> Classes </h3>
@@ -57,13 +57,54 @@
               </p>
       </div>
     </article>
+    <form action="" method="get">
+
+  <fieldset class="fieldset">
+    <legend>Apply Now!</legend>
+  <label> First Name: <input type:"text" name="first-name"></label>
+  <label> Last Name: <input type:"text" name="last-name"></label>
+  <label> Age: <input type:"number" min="10" max="120" name="age"></label>
+  <label> Email: <input type:"email" name="email"></label>
+
+  <label>
+    <input type="radio" name="gender" value="male"> Male
+  </label>
+
+  <label>
+    <input type="radio" name="gender" value="female"> Female
+  </label>
+
+  <label>
+    <input type="radio" name="gender" value="other"> Other
+  </label>
+
+  <label>Where are you from:
+  <select name="region">
+    <option value"Bellevue">Bellevue</option>
+    <option value"Redmond">Redmond</option>
+    <option value"Tacoma">Tacoma</option>
+    <option value"Ballard">Ballard</option>
+    <option value"Federal Way">Federal Way</option>
+    <option value"Other">Other</option>
+    <option value"Seattle" selected>Seattle</option>
+  </select>
+</label>
+
+<label>
+<input type="checkbox" name="club-member" value="member" checked> Send me weekly newsletters
+</label>
+
+<input id="submit-button" type="submit" name="submit">
+</fieldset>
+</form>
     <footer>
-      <img src="images.img/footerImage.jpg" alt="Footer Image">
       <nav>
-        <ul>
-          <li> Link 1 </li>
-          <li> Link 2 </li>
-          <li> Link 3 </li>
+        <ul id="footer">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about-us.html"> About Us</a></li>
+          <li><a href="index.html"> Link</a></li>
+          <li><a href="index.html"> Link</a></li>
+          <li><a href="index.html"> Contact Us</a></li>
         </ul>
       </nav>
         <p> Nondiscriminatory Policy: Next Step Archery admits students of any race, gender presentation, sexuality,
